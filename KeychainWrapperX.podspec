@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "KeychainWrapperX"
-  spec.version = "1.1.1"
+  spec.version = "1.0.0"
   spec.summary = "KeychainWrapperX is just a simple CoreFoundationKit utility Module"
 
   spec.description = <<-DESC
