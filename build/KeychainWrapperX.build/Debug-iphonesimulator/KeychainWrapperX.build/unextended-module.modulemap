@@ -1,0 +1,10 @@
+framework module KeychainWrapperX {
+  umbrella header "KeychainWrapperX.h"
+
+  export *
+  module * { export * }
+}
+
+module KeychainWrapperX.__Swift {
+    exclude header "KeychainWrapperX-Swift.h"
+}

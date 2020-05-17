@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/prashant/Library/Developer/Xcode/DerivedData/KeychainWrapperX-ewslvpfzpthxewavhmewfwuhkizv/Build/Products/Debug-iphonesimulator/KeychainWrapperX.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/prashant/Desktop/WorkspaceX/CoreKits/DevelopmentPods/KeychainWrapperX/build/KeychainWrapperX.build/Debug-iphonesimulator/KeychainWrapperX.build/unextended-module.modulemap",
+    }]
+  }]
+}

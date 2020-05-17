@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "ba514f08807974ffa37ec6e0dbd45a2b"
+build_time: [1589737587, 40387000]
+inputs:
+  "/Users/prashant/Desktop/WorkspaceX/CoreKits/DevelopmentPods/KeychainWrapperX/Sources/KeychainAccess.swift": [1589737358, 92479083]
