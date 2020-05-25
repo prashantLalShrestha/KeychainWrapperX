@@ -25,7 +25,7 @@ lipo -create -output "${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJ
 cp -R "${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework" "${PROJECT_DIR}/Products"
 
 # Step 6. Convenience step to open the project's directory in Finder
-open "${PROJECT_DIR}/Products"
+#open "${PROJECT_DIR}/Products"
 
 fi
 

@@ -1,0 +1,352 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Credential"
+- "BiometricKeychainResult"
+- "BiometricKeychain"
+- "BiometricKeychainImpl"
+provides-nominal:
+- "16KeychainWrapperX09BiometricA0P"
+- "16KeychainWrapperX09BiometricA4ImplC"
+provides-member:
+- ["16KeychainWrapperX09BiometricA0P", ""]
+- ["16KeychainWrapperX09BiometricA4ImplC", ""]
+provides-dynamic-lookup:
+- "deleteAll"
+- "deleteCredential"
+- "getCredential"
+- "keychain"
+- "updateCredential"
+depends-top-level:
+- !private "=="
+- "??"
+- "AssignmentPrecedence"
+- "BiometricKeychain"
+- "BiometricKeychainImpl"
+- "BiometricKeychainResult"
+- !private "BooleanLiteralType"
+- "Bundle"
+- "Credential"
+- !private "DispatchQueue"
+- "Error"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "Keychain"
+- !private "KeychainConstant"
+- !private "NSError"
+- !private "NSLocalizedDescriptionKey"
+- "Result"
+- "String"
+- "StringLiteralType"
+- !private "UserDefaults"
+- "Void"
+depends-member:
+- !private ["14KeychainAccess13AccessibilityO", "callAsFunction"]
+- !private ["14KeychainAccess13AccessibilityO", "whenUnlockedThisDeviceOnly"]
+- !private ["Sa", "forEach"]
+- !private ["14KeychainAccess20AuthenticationPolicyV", "biometryCurrentSet"]
+- !private ["14KeychainAccess20AuthenticationPolicyV", "userPresence"]
+- !private ["SK", "forEach"]
+- ["16KeychainWrapperX09BiometricA0P", "BiometricKeychainResult"]
+- !private ["16KeychainWrapperX09BiometricA0P", "DispatchQueue"]
+- !private ["16KeychainWrapperX09BiometricA0P", "Keychain"]
+- !private ["16KeychainWrapperX09BiometricA0P", "KeychainConstant"]
+- !private ["16KeychainWrapperX09BiometricA0P", "NSError"]
+- !private ["16KeychainWrapperX09BiometricA0P", "NSLocalizedDescriptionKey"]
+- ["16KeychainWrapperX09BiometricA0P", "String"]
+- !private ["16KeychainWrapperX09BiometricA0P", "UserDefaults"]
+- ["16KeychainWrapperX09BiometricA0P", ""]
+- !private ["16KeychainWrapperX09BiometricA0P", "deleteAll"]
+- ["16KeychainWrapperX09BiometricA0P", "deleteCredential"]
+- ["16KeychainWrapperX09BiometricA0P", "getCredential"]
+- !private ["16KeychainWrapperX09BiometricA0P", "keychain"]
+- ["16KeychainWrapperX09BiometricA0P", "updateCredential"]
+- ["16KeychainWrapperX09BiometricA4ImplC", "BiometricKeychainResult"]
+- !private ["16KeychainWrapperX09BiometricA4ImplC", "DispatchQueue"]
+- ["16KeychainWrapperX09BiometricA4ImplC", "Keychain"]
+- !private ["16KeychainWrapperX09BiometricA4ImplC", "KeychainConstant"]
+- !private ["16KeychainWrapperX09BiometricA4ImplC", "NSError"]
+- !private ["16KeychainWrapperX09BiometricA4ImplC", "NSLocalizedDescriptionKey"]
+- ["16KeychainWrapperX09BiometricA4ImplC", "String"]
+- !private ["16KeychainWrapperX09BiometricA4ImplC", "UserDefaults"]
+- ["16KeychainWrapperX09BiometricA4ImplC", "deinit"]
+- !private ["16KeychainWrapperX09BiometricA4ImplC", "deleteAll"]
+- ["16KeychainWrapperX09BiometricA4ImplC", "deleteCredential"]
+- ["16KeychainWrapperX09BiometricA4ImplC", "getCredential"]
+- ["16KeychainWrapperX09BiometricA4ImplC", "init"]
+- !private ["16KeychainWrapperX09BiometricA4ImplC", "keychain"]
+- ["16KeychainWrapperX09BiometricA4ImplC", "updateCredential"]
+- ["So8NSBundleC", "bundleIdentifier"]
+- ["So8NSBundleC", "init"]
+- ["So8NSBundleC", "main"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "bool"]
+- ["s7CVarArgP", "bundleIdentifier"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["s7CVarArgP", "global"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "set"]
+- !private ["s7CVarArgP", "standard"]
+- !private ["Sl", "forEach"]
+- !private ["10Foundation15ContiguousBytesP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "accessibility"]
+- !private ["s28CustomDebugStringConvertibleP", "allKeys"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "authenticationPrompt"]
+- !private ["s28CustomDebugStringConvertibleP", "bool"]
+- ["s28CustomDebugStringConvertibleP", "bundleIdentifier"]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "get"]
+- !private ["s28CustomDebugStringConvertibleP", "global"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "main"]
+- ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "set"]
+- !private ["s28CustomDebugStringConvertibleP", "standard"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "forEach"]
+- ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "accessibility"]
+- !private ["s23CustomStringConvertibleP", "allKeys"]
+- ["s23CustomStringConvertibleP", "appendInterpolation"]
+- ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "authenticationPrompt"]
+- !private ["s23CustomStringConvertibleP", "bool"]
+- ["s23CustomStringConvertibleP", "bundleIdentifier"]
+- !private ["s23CustomStringConvertibleP", "callAsFunction"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "get"]
+- !private ["s23CustomStringConvertibleP", "global"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "remove"]
+- !private ["s23CustomStringConvertibleP", "set"]
+- !private ["s23CustomStringConvertibleP", "standard"]
+- !private ["s23CustomStringConvertibleP", "whenUnlockedThisDeviceOnly"]
+- !private ["10Foundation12DataProtocolP", "forEach"]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "forEach"]
+- ["Se", "map"]
+- ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "global"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "global"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "forEach"]
+- ["SE", "map"]
+- !private ["SQ", "async"]
+- !private ["SQ", "biometryCurrentSet"]
+- !private ["SQ", "bool"]
+- ["SQ", "bundleIdentifier"]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "failure"]
+- !private ["SQ", "forEach"]
+- !private ["SQ", "global"]
+- ["SQ", "init"]
+- ["SQ", "main"]
+- ["SQ", "map"]
+- !private ["SQ", "set"]
+- !private ["SQ", "standard"]
+- !private ["SQ", "success"]
+- !private ["SQ", "userPresence"]
+- !private ["SQ", "whenUnlockedThisDeviceOnly"]
+- !private ["s5ErrorP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "biometryCurrentSet"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["s25ExpressibleByArrayLiteralP", "userPresence"]
+- !private ["s23ExpressibleByNilLiteralP", "callAsFunction"]
+- ["s23ExpressibleByNilLiteralP", "map"]
+- !private ["SH", "async"]
+- !private ["SH", "bool"]
+- ["SH", "bundleIdentifier"]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "failure"]
+- !private ["SH", "forEach"]
+- !private ["SH", "global"]
+- ["SH", "init"]
+- ["SH", "main"]
+- ["SH", "map"]
+- !private ["SH", "set"]
+- !private ["SH", "standard"]
+- !private ["SH", "success"]
+- !private ["SH", "whenUnlockedThisDeviceOnly"]
+- !private ["14KeychainAccess0A0C", "accessibility"]
+- !private ["14KeychainAccess0A0C", "allKeys"]
+- !private ["14KeychainAccess0A0C", "authenticationPrompt"]
+- !private ["14KeychainAccess0A0C", "contains"]
+- !private ["14KeychainAccess0A0C", "get"]
+- !private ["14KeychainAccess0A0C", "init"]
+- !private ["14KeychainAccess0A0C", "remove"]
+- !private ["14KeychainAccess0A0C", "set"]
+- !private ["SM", "forEach"]
+- !private ["10Foundation19MutableDataProtocolP", "forEach"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So7NSErrorC", "init"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "bool"]
+- ["So8NSObjectC", "bundleIdentifier"]
+- !private ["So8NSObjectC", "global"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "set"]
+- !private ["So8NSObjectC", "standard"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "bool"]
+- ["So8NSObjectP", "bundleIdentifier"]
+- !private ["So8NSObjectP", "global"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "set"]
+- !private ["So8NSObjectP", "standard"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "global"]
+- !private ["So9OS_objectC", "main"]
+- !private ["s9OptionSetP", "biometryCurrentSet"]
+- !private ["s9OptionSetP", "userPresence"]
+- !private ["Sq", "callAsFunction"]
+- ["Sq", "map"]
+- !private ["Sk", "forEach"]
+- !private ["Sm", "forEach"]
+- !private ["SY", "biometryCurrentSet"]
+- !private ["SY", "callAsFunction"]
+- !private ["SY", "userPresence"]
+- !private ["SY", "whenUnlockedThisDeviceOnly"]
+- !private ["s6ResultO", "failure"]
+- !private ["s6ResultO", "success"]
+- !private ["7Combine9SchedulerP", "async"]
+- !private ["7Combine9SchedulerP", "global"]
+- !private ["7Combine9SchedulerP", "main"]
+- !private ["ST", "forEach"]
+- !private ["s10SetAlgebraP", "biometryCurrentSet"]
+- !private ["s10SetAlgebraP", "userPresence"]
+- ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- ["s27StringInterpolationProtocolP", "appendLiteral"]
+- ["s16TextOutputStreamP", "appendInterpolation"]
+- ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["So14NSUserDefaultsC", "bool"]
+- !private ["So14NSUserDefaultsC", "set"]
+- !private ["So14NSUserDefaultsC", "standard"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s19_HasContiguousBytesP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bool"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "bundleIdentifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "global"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "set"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "standard"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bool"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bundleIdentifier"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "global"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "set"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "standard"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- ["s21_ObjectiveCBridgeableP", "map"]
+depends-nominal:
+- !private "14KeychainAccess13AccessibilityO"
+- !private "Sa"
+- !private "14KeychainAccess20AuthenticationPolicyV"
+- !private "SK"
+- "16KeychainWrapperX09BiometricA0P"
+- "16KeychainWrapperX09BiometricA4ImplC"
+- "So8NSBundleC"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- "s26DefaultStringInterpolationV"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- "SH"
+- !private "14KeychainAccess0A0C"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So7NSErrorC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So9OS_objectC"
+- !private "s9OptionSetP"
+- "Sq"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "s6ResultO"
+- !private "7Combine9SchedulerP"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- "s27StringInterpolationProtocolP"
+- "s16TextOutputStreamP"
+- !private "So14NSUserDefaultsC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/prashant/Library/Developer/Xcode/DerivedData/KeychainWrapperX-ewslvpfzpthxewavhmewfwuhkizv/Build/Products/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Modules/KeychainAccess.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/prashant/Desktop/WorkspaceX/CoreKits/DevelopmentPods/KeychainWrapperX/KeychainWrapperX/KeychainWrapperX.h"
+- "/Users/prashant/Library/Developer/Xcode/DerivedData/KeychainWrapperX-ewslvpfzpthxewavhmewfwuhkizv/Build/Products/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Headers/KeychainAccess-umbrella.h"
+- "/Users/prashant/Library/Developer/Xcode/DerivedData/KeychainWrapperX-ewslvpfzpthxewavhmewfwuhkizv/Build/Products/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Headers/KeychainAccess-Swift.h"
+- "/Users/prashant/Desktop/WorkspaceX/CoreKits/DevelopmentPods/KeychainWrapperX/build/KeychainWrapperX.build/Debug-iphonesimulator/KeychainWrapperX.build/unextended-module.modulemap"
+- "/Users/prashant/Library/Developer/Xcode/DerivedData/KeychainWrapperX-ewslvpfzpthxewavhmewfwuhkizv/Build/Products/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "649700453bd833fb44a4c0b837fbc14a"
